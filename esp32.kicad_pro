@@ -617,6 +617,14 @@
     [
       "ce9639a1-645c-4d9b-b86e-887c0addc46e",
       "ESP 32-C3-02"
+    ],
+    [
+      "406ee795-118b-4297-bef8-1f2527d35040",
+      "Sensors"
+    ],
+    [
+      "b2d67d36-6f28-4ae0-9f74-73bfed45a312",
+      "User interface"
     ]
   ],
   "text_variables": {}

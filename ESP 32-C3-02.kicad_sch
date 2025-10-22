@@ -9174,4 +9174,90 @@
 			)
 		)
 	)
+	(sheet
+		(at 139.7 105.41)
+		(size 25.4 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 99 255 154 1)
+		)
+		(fill
+			(color 7 255 157 1.0000)
+		)
+		(uuid "406ee795-118b-4297-bef8-1f2527d35040")
+		(property "Sheetname" "Sensors"
+			(at 139.7 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 139.7 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32"
+				(path "/3a4906cd-b970-47fd-b3df-3da3a46542f3/ce9639a1-645c-4d9b-b86e-887c0addc46e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 153.67)
+		(size 25.4 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 120 120 1)
+		)
+		(fill
+			(color 255 98 28 1.0000)
+		)
+		(uuid "b2d67d36-6f28-4ae0-9f74-73bfed45a312")
+		(property "Sheetname" "User interface"
+			(at 139.7 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "user_interface.kicad_sch"
+			(at 139.7 192.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32"
+				(path "/3a4906cd-b970-47fd-b3df-3da3a46542f3/ce9639a1-645c-4d9b-b86e-887c0addc46e"
+					(page "4")
+				)
+			)
+		)
+	)
 )

@@ -2776,7 +2776,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 55.88 39.37 0)
 			(effects
 				(font
@@ -2918,7 +2918,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 58.42 74.93 0)
 			(effects
 				(font
@@ -2994,7 +2994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 111.76 93.218 90)
 			(effects
 				(font
@@ -3206,7 +3206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 98.7552 49.53 0)
 			(effects
 				(font
@@ -3340,7 +3340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
+		(property "Footprint" "Footprints:SW_USLPT2819DT2TR"
 			(at 110.49 33.02 0)
 			(effects
 				(font
@@ -3524,7 +3524,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 111.76 77.978 90)
 			(effects
 				(font
@@ -3594,7 +3594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 140.6652 53.34 0)
 			(effects
 				(font
@@ -3662,7 +3662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
+		(property "Footprint" "Footprints:SW_USLPT2819DT2TR"
 			(at 148.59 38.1 0)
 			(effects
 				(font
@@ -4056,7 +4056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 134.112 33.02 90)
 			(effects
 				(font

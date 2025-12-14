@@ -4043,6 +4043,10 @@
 		(uuid "b663fa5d-7130-4e97-920f-e5434d449c1b")
 	)
 	(no_connect
+		(at 190.5 132.08)
+		(uuid "c4ff84fb-d4a4-4306-8791-714af5188d7f")
+	)
+	(no_connect
 		(at 76.2 73.66)
 		(uuid "f1b04b6b-a6cf-440e-93fb-6bf5bf4b7e67")
 	)
@@ -4908,6 +4912,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 114.3) (xy 168.91 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53c7b52-d200-4c04-af21-03da8cc2b05b")
+	)
+	(wire
+		(pts
+			(xy 165.1 116.84) (xy 168.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c556d194-c091-4068-a27c-855dbfe8eaf8")
+	)
+	(wire
+		(pts
 			(xy 63.5 50.8) (xy 60.96 50.8)
 		)
 		(stroke
@@ -5126,6 +5150,16 @@
 		)
 		(uuid "1f705583-46d8-43dd-9a33-88711c2962c4")
 	)
+	(label "MIC_OUT"
+		(at 165.1 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fc3afb8-d088-44d6-aff7-bd7495265692")
+	)
 	(label "CS"
 		(at 153.67 54.61 0)
 		(effects
@@ -5216,6 +5250,16 @@
 		)
 		(uuid "4c997945-9f97-4ed4-817d-1e475f0e9c10")
 	)
+	(label "PHOTO_C"
+		(at 165.1 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cc96b5a-ee10-4caa-a033-b6fc56e2be91")
+	)
 	(label "DTS"
 		(at 76.2 66.04 0)
 		(effects
@@ -5235,6 +5279,16 @@
 			(justify right bottom)
 		)
 		(uuid "5176dbf2-8879-4bee-92a5-e1c0956ace99")
+	)
+	(label "SCL"
+		(at 168.91 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53206521-39a2-40b1-be8a-1bec6b883f87")
 	)
 	(label "SCLK"
 		(at 153.67 39.37 0)
@@ -5445,6 +5499,16 @@
 			(justify left bottom)
 		)
 		(uuid "b118a0b1-bc55-449c-9318-000277487599")
+	)
+	(label "SDA"
+		(at 168.91 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2403322-9245-4eb3-a4d5-c0ee64e7e6cc")
 	)
 	(label "TX_RX"
 		(at 204.47 59.69 180)
@@ -5719,7 +5783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:T491A"
 			(at 54.61 28.2448 0)
 			(effects
 				(font
@@ -5787,7 +5851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "W25Q32JVSSIQ:SOIC127P790X216-8N"
+		(property "Footprint" "Footprints:SOIC127P790X216-8N"
 			(at 68.58 146.05 0)
 			(effects
 				(font
@@ -5975,7 +6039,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 102.87 101.092 90)
 			(effects
 				(font
@@ -6111,7 +6175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 26.162 54.61 90)
 			(effects
 				(font
@@ -6182,7 +6246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:T491A"
 			(at 245.4148 110.49 0)
 			(effects
 				(font
@@ -6382,7 +6446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GSD090012SEU:AMPHENOL_GSD090012SEU"
+		(property "Footprint" "Footprints:AMPHENOL_GSD090012SEU"
 			(at 208.28 132.08 0)
 			(effects
 				(font
@@ -6676,7 +6740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 44.45 60.198 90)
 			(effects
 				(font
@@ -6744,7 +6808,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 153.67 41.91 0)
 			(effects
 				(font
@@ -6940,7 +7004,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 190.5 56.388 90)
 			(effects
 				(font
@@ -7008,7 +7072,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 153.67 49.53 0)
 			(effects
 				(font
@@ -7207,7 +7271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 255.5748 110.49 0)
 			(effects
 				(font
@@ -7342,7 +7406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 262.5852 43.18 0)
 			(effects
 				(font
@@ -7410,7 +7474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-C3-WROOM-02-H4:MODULE_ESP32-C3-WROOM-02-H4"
+		(property "Footprint" "Footprints:MODULE_ESP32-C3-WROOM-02-H4"
 			(at 222.25 49.53 0)
 			(effects
 				(font
@@ -7682,7 +7746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:T491A"
 			(at 272.7452 43.18 0)
 			(effects
 				(font
@@ -7752,7 +7816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 26.162 64.77 90)
 			(effects
 				(font
@@ -7820,7 +7884,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 153.67 26.67 0)
 			(effects
 				(font
@@ -8018,7 +8082,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEDC2012X120N"
+		(property "Footprint" "Footprints:LEDC2012X120N"
 			(at 119.38 196.52 0)
 			(effects
 				(font
@@ -8223,7 +8287,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 233.68 126.238 90)
 			(effects
 				(font
@@ -8419,7 +8483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDC2012X120N"
+		(property "Footprint" "Footprints:LEDC2012X120N"
 			(at 118.11 181.28 0)
 			(effects
 				(font
@@ -8558,7 +8622,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 248.92 38.608 90)
 			(effects
 				(font
@@ -8627,7 +8691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 54.61 38.4048 0)
 			(effects
 				(font
@@ -8695,7 +8759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 153.67 19.05 0)
 			(effects
 				(font
@@ -8893,7 +8957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 153.67 34.29 0)
 			(effects
 				(font
@@ -8957,7 +9021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 241.3 136.398 90)
 			(effects
 				(font
@@ -9026,7 +9090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 94.9452 149.86 0)
 			(effects
 				(font
@@ -9096,7 +9160,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 101.6 85.852 90)
 			(effects
 				(font
@@ -9312,7 +9376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 41.91 152.908 90)
 			(effects
 				(font
@@ -9399,7 +9463,7 @@
 				(justify right)
 			)
 		)
-		(pin "PHOTO_C" input
+		(pin "PHOTO_C" output
 			(at 165.1 111.76 0)
 			(uuid "85cb2191-15bf-4a80-ac5a-7461e7d72def")
 			(effects
